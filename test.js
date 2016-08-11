@@ -7,4 +7,6 @@ require('./')(argv => {
   assert(argv.bar === 'baz')
 
   console.log('test ok!')
+
+  return 0
 })
