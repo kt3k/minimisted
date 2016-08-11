@@ -7,5 +7,10 @@
  */
 module.exports = (main, sliceIndex) => {
   sliceIndex = typeof sliceIndex === 'number' ? sliceIndex : 2
-  process.exit(main(require('minimist')(process.argv.slice(sliceIndex))))
+
+  const exitCode = main(require('minimist')(process.argv.slice(sliceIndex)))
+
+  if (typeof exitCode === 'number') {
+    process.exit(exitCode)
+  }
 }

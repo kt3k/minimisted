@@ -45,7 +45,7 @@ You can forget about what `minimist` does and you can only get what you want i.e
 
 # Exit code
 
-If your main function returns a number other than 0, it is used as the return code of the cli.
+If your main function returns a number, it is used as the return code of the cli.
 
 `sample-cli.js`
 
