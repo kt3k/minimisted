@@ -8,6 +8,10 @@
 
 `minimist` is a nice handy library for parsing the command line options, but its interface is not such nice and a bit too tedious if you use it a number of times. This library gives you an interface to use `minimist` a bit more declarative way.
 
+# Install
+
+    npm install minimisted
+
 # Usage
 
 You can write your cli like the following:
