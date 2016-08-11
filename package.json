@@ -1,0 +1,34 @@
+{
+  "name": "minimisted",
+  "version": "0.1.0",
+  "description": "Handy wrapper of `minimist`",
+  "main": "index.js",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "nyc": "^7.1.0",
+    "standard": "^7.1.2"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "node test.js --foo --bar baz",
+    "lcov": "nyc --reporter=lcov npm test",
+    "codecov": "npm run lcov && codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kt3k/minimisted.git"
+  },
+  "keywords": [
+    "minimist",
+    "cli"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/minimisted/issues"
+  },
+  "homepage": "https://github.com/kt3k/minimisted#readme"
+}
