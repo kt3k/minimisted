@@ -1,4 +1,4 @@
-# minimisted v1.1.0
+# minimisted v1.1.1
 
 [![Circle CI](https://circleci.com/gh/kt3k/minimisted.svg?style=svg)](https://circleci.com/gh/kt3k/minimisted)
 [![codecov](https://codecov.io/gh/kt3k/minimisted/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/minimisted)
