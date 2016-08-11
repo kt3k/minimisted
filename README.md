@@ -22,7 +22,7 @@ require('minimisted')(main)
 
 where `argv` is the parsed command line options by `minimist`, which is exactly the same as `minimist(process.argv.slice(2))`.
 
-Using parameter destruturing syntax, you can write it like the following:
+Using object destructuring syntax, you can write it like the following:
 
 ```js
 /**
