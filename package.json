@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "codecov": "^1.0.1",
-    "nyc": "^8.0.0",
+    "nyc": "^10.0.0",
     "standard": "^8.0.0"
   },
   "scripts": {
