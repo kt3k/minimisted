@@ -2,11 +2,15 @@
 
 const assert = require('assert')
 
-require('./')(argv => {
-  assert(argv.foo === true)
-  assert(argv.bar === 'baz')
+const result = require('./')(argv => {
+  assert.strictEqual(argv.foo, '1')
+  assert.strictEqual(argv.bar, 'baz')
+  assert.strictEqual(argv.qux, true)
+  assert.deepStrictEqual(argv._, ['quux'])
 
-  console.log('test ok!')
+  return 123
+}, { string: ['foo'], boolean: ['qux'] }, ['--foo', '1', '--bar', 'baz', '--qux', 'quux'])
 
-  return 0
-})
+assert.strictEqual(result, 123)
+
+console.log('test ok!')

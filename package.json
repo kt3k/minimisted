@@ -13,7 +13,7 @@
   },
   "scripts": {
     "lint": "standard",
-    "test": "node test.js --foo --bar baz",
+    "test": "node test.js",
     "lcov": "nyc --reporter=lcov npm test",
     "codecov": "npm run lcov && codecov"
   },
