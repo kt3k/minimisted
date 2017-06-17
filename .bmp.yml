@@ -1,5 +1,5 @@
 ---
-version: 1.1.1
+version: 2.0.0
 commit: ":up: chore(version): bmp to v%.%.%"
 files:
   README.md: v%.%.%
