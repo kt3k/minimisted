@@ -7,15 +7,13 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
-    "codecov": "^3.6.5",
     "nyc": "^11.0.1",
     "standard": "^10.0.0"
   },
   "scripts": {
     "lint": "standard",
     "test": "node test.js",
-    "lcov": "nyc --reporter=lcov npm test",
-    "codecov": "npm run lcov && codecov"
+    "cov": "nyc --reporter=lcov npm test"
   },
   "repository": {
     "type": "git",
