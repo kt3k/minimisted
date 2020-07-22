@@ -1,4 +1,4 @@
-# minimisted v2.0.0
+# minimisted v2.0.1
 
 ![CI](https://github.com/kt3k/minimisted/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/kt3k/minimisted/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/minimisted)
