@@ -1,6 +1,6 @@
 # minimisted v2.0.0
 
-[![Circle CI](https://circleci.com/gh/kt3k/minimisted.svg?style=svg)](https://circleci.com/gh/kt3k/minimisted)
+![CI](https://github.com/kt3k/minimisted/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/kt3k/minimisted/branch/master/graph/badge.svg)](https://codecov.io/gh/kt3k/minimisted)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
