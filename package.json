@@ -4,7 +4,7 @@
   "description": "Handy wrapper of `minimist`",
   "main": "index.js",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.5"
   },
   "devDependencies": {
     "nyc": "^11.0.1",
